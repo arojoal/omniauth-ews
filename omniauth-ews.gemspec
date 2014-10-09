@@ -4,7 +4,7 @@ require File.expand_path('../lib/omniauth-ews/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.add_dependency 'omniauth', '~> 1.0'
   gem.add_dependency 'omniauth-http-basic', '~> 1.0'
-  gem.add_dependency 'viewpoint'
+  gem.add_dependency 'viewpoint', '~> 1.0'
 
   gem.add_development_dependency 'rspec', '~> 2.7'
   gem.add_development_dependency 'rack-test'
