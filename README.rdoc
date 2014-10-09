@@ -5,10 +5,6 @@ Exchange Web Services (EWS) authentication strategy for OmniAuth
 
 == Usage
 
-Check https://github.com/janx/omniauth-broadworks for example.
-
-== 
-
 Install manually or using Bundler:
 
     gem 'omniauth-ews'
