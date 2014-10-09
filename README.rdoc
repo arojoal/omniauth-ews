@@ -1,0 +1,21 @@
+= omniauth-ews
+============
+
+Exchange Web Services (EWS) authentication strategy for OmniAuth
+
+== Usage
+
+Check https://github.com/janx/omniauth-broadworks for example.
+
+== 
+
+Install manually or using Bundler:
+
+    gem 'omniauth-ews'
+
+Add :ews provider to omniauth builder:
+
+    use OmniAuth::Builder do
+      provider :ews, :endpoint => "https://example.com/ews/exchange.asmx"
+      # provider ...
+    end
